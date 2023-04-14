@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Krr innovation</title>
+    <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="temp.css">
+    <link rel="stylesheet" href="img.css">
+    <link rel="stylesheet" href="assets/css/style-liberty.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://kit.fontawesome.com/5955c7fe14.js" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+
+<meta name="robots" content="noindex">
+<body><link rel="stylesheet" href="/assests/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+}
+</style>
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg stroke">
+                <h1>
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <span class="lostyle-1">K</span>
+                        RR Innovation 
+                    </a>
+ <h4 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-left:600px;font-size: medium;line-height:10px;" ><i class="fas fa-comment-dots fa-bounce" style="font-size: 30px;color: rgb(9, 68, 196);position: relative;top:10px;"></i> start chatting <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with us</h4>
+            </nav>
+        </div>
+    </header>
+    <div class="banner-19">
+        <div class="banner-layer">
+            <video autoplay muted loop id="myVideo">
+                <source src="assets/videos/background.mp4" type="video/mp4">
+            </video>
+            <div class="main-content-top">
+                <div class="container">
+                    <div class="main-content">
+                        <h4> Innovation For a Better Tomorrow </h4>
+                        <p class="mt-3">Are you a fast growing
+                            KRR brand looking to
+                            disrupt your market?
+                            </p>
+                        <a href="about.html" class="btn btn-style mt-md-5 mt-4">Read More</a>
+                    </div> 
+                    <div class="content">
+                        <h1 style="position: absolute;top:300px;left:800px;color:white;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:30px;">What you are looking for?</h1>
+                        <div class="content__container">
+                          <ul class="content__container__list">
+                            <li class="content__container__list__item"><h1>Development</h1></li>
+                            <li class="content__container__list__item"><h1>research</h1></li>
+                            <li class="content__container__list__item"><h1>Innovation</h1></li>
+                            <li class="content__container__list__item"><h1>greedy</h1></li>
+                            <li class="content__container__list__item"><h1>Center</h1></li>
+                          </ul>
+                        </div>
+                      </div>              
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <section>
+        <div class="sect2">
+          <h1 words-slide-up id="text" class="text-5xl font-bold">Creativity and innovation management:<br> How to inspire original ideas</h1>
+        </div>
+       <div>
+        <p  words-slide-down id="text1" style="position: absolute;top:800px;left:10px;"> To carry on the business of manufacturing, developing, researching, designing, trading, import and export of the internet of things 
+            devices, or IOT technology enabled devices and other information & communication technology (ICT) and electrical enabled devices to 
+            foster smart farming, agriculture, irrigation and aqua farming, and to build technologies to meet the ever changing daily needs of people in 
+            healthcare, home care and automation and other related activities in India and abroad. </p>
+        </div>
+        <div  class="sect3">
+            <img src="./assets/pic-1.jpg" id="pic-1" />
+            <img src="./assets/pic-2.avif" id="pic-2" />
+            <img src="./assets/pic-3.avif" id="pic-3" />
+            <img src="./assets/pic-4.avif" id="pic-4" />
+            <img src="./assets/pic-5.png" id="pic-5" />
+            <img src="./assets/pic-6.png" id="pic-6" />
+            <img src="./assets/pic-8.png" id="pic-7" />
+            <img src="./assets/pic-7.png" id="pic-8" />
+            <img src="./assets/pic-9.png" id="pic-9" />
+       </div>
+       <div class="sect4">
+           <h1>What are you really looking for?</h1>
+           <br>
+           <div class="box"><h2>innovation</h2></div>
+           <div class="box"><h2> IOT technology</h2></div>
+           <div class="box"><h2>Internship</h2></div>
+           <div class="box"><h2>designing</h2></div>
+           <div class="box"><h2> mentoring</h2></div>
+           <div class="box"><h2>Entrepreneurship Development</h2></div>
+           <div class="box"><h2>Arts</h2></div>
+       </div>
+        </section>
+     
+        <script>
+            const boxes = document.querySelectorAll('.box')
+            window.addEventListener('scroll',checkBoxes)
+            checkBoxes()
+            function checkBoxes(){
+                const triggerBottom = window.innerHeight/5*4
+                boxes.forEach(box=>{
+                    const boxTop = box.getBoundingClientRect().top
+                    if(boxTop < triggerBottom){
+                        box.classList.add('show')
+                    }
+                    else{
+                        box.classList.remove('show')
+                    }
+                })
+            }
+
+        </script>
+
+
+    <section class="py-5">
+        <div class="container py-md-5 py-sm-4 reveal">
+            <div class="row">
+                <div class="col-lg-6 left-wthree-img mb-lg-0 mb-4">
+                    <img class="img-fluid img-responsive" src="assets/internship-pic.avif" alt=" ">
+                </div>
+                <div class="col-lg-6 about-right-faq align-self pl-lg-5">
+                    <h3 class="title-style" style="color: rgb(255, 234, 0);">We Want You:For Future and Creativity world</h3>
+                    <p class="mt-2">To recruit, train and develop a pool of technical, managerial and administrative personnel including staff, employees, agents, for the 
+                        Company or any subsidiary, affiliate or group companies or any other company, firm or other person, particularly where such companies, 
+                        firms or persons are engaged in any business related to the business of the Company. </p>
+                    <div class="mt-4 pt-md-2">
+                        <div class="about-info-m d-flex">
+                            <div class="about-detail">
+                                <h4 style="color:rgb(255, 234, 0);">Perspectivites</h4>
+                                <p> Identify projects, project ideas, to prepare profiles, project reports, and undertake market research, feasibility studies, pre-investment studies and investigation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<div style="margin: 8px auto; display: block; text-align:center;">
+
+ 
+</div>
+  
+    <div class="service-div py-5">
+        <div class="container py-md-5 py-4">
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6 div-heading">
+                    <h5 class="small-title-2">KRR Innovaions</h5>
+                    <h3 class="title-style-2">
+                        The capabilities</h3>
+                </div>
+                <div class="col-md-6 div-heading mt-md-0 mt-2">
+                    <p>
+                        To promote, invest or assist any companies for the purpose of acquiring all or any of the property, rights and liabilities of such 
+companies, which may seem beneficial to the Company.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 item">
+                    <div class="card">
+                
+                        <div class="card-header p-0 position-relative border-0 reveal">
+                            <a href="#">
+                                <img class="d-block img-responsive img1" src="assets/img-p2.avif" alt="card-image">
+                            </a>
+                            <div class="image__overlay image-blur">
+                                <div class="image__title"> Technology</div>
+                                <p class="image__description">
+                                    <ul style="text-align: center;color:aqua;opacity: 0.5;">
+                                        <li>-> commerce</li>
+                                        <li>-> science</li>
+                                        <li>-> arts</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-body service-details reveal">
+                            <span class="label-style">Strong</span>
+                            <a href="#" class="service-heading">Killing statergy</a>
+                            <p>During his time in Asgard, Odin casted Thor into the mortal guise of Siegmund to retrieve the Rhinegold Ring from the dragon Fafnir. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+                    <div class="card">
+                        <div class="card-header p-0 position-relative border-0 reveal">
+                            <a href="#">
+                                <img class="d-block img-responsive" src="assets/img-p1.avif" alt="card-image">
+                            </a>
+                            <div class="image__overlay image-blur">
+                                <div class="image__title"> Services</div>
+                                <p class="image__description">
+                                    <ul style="text-align: center;"><li>innovation</li><li>entrepreneurship development</li><li> mentoring </li>
+                                      </ul>
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="card-body service-details reveal">
+                            <span class="label-style label-style-2">God</span>
+                            <a href="services.html" class="service-heading">Son of asgard</a>
+                            <p>Thor, son of Gods, has enhanced longevity, augmented by the Golden Apples of Idunn. He also possesses superhuman strength, speed, agility, durability and immunity to most diseases.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
+                    <div class="card">
+                        <div class="card-header p-0 position-relative border-0 reveal">
+                            <a href="services.html">
+                                <img class="d-block img-responsive" src="assets/img-p3.avif" alt="card-image">
+                            </a>
+                            <div class="image__overlay image-blur">
+                                <div class="image__title">Education</div>
+                                <p class="image__description" style="width: 108px;text-align: center;">
+                                    cause, institution, research 
+                                    centre, libraries, colleges, seminars, conferences,workshops.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-body service-details reveal">
+                            <span class="label-style label-style-3">Friendly</span>
+                            <a href="" class="service-heading">Best companion</a>
+                            <p>When Jane Foster's cancer-ridden body could no longer take the rigors of godhood, she chose to battle a rampaging Mangog one last time in an effort to save Asgard from total destruction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div style="margin: 8px auto; display: block; text-align:center;">
+</div>
+    <div class="w3l-content-photo-5 py-5 reveal">
+        <div class="container py-lg-5 py-sm-4">
+            <div class="row align-items-center">
+                <div class="col-lg-6 content-image order-lg-first order-last">
+                    <a href="#image"><img src="assets/all-tech.avif" class="img-responsive" alt="content-photo"></a>
+                </div>
+                <div class="col-lg-6 col-md-10 mx-auto content-right mb-lg-0 mb-5 pl-lg-5 order-lg-last order-first">
+                    <h5 class="small-title-2" style="color: red;font-weight: bold;">About</h5>
+                    <h3 class="title-style-2" style="color:rgb(4, 4, 79)">KRR Innovations Pvt Ltd</h3>
+                    <p class="my-3">Thor Odinson eventually became unworthy of Mjolnir and his former lover Jane Foster took up the mantle of Thor in his stead. Possessing all his godhood and powers via the hammer</p>
+                    <p class="border-top-w3l pt-4 mt-4">
+                        Thor then turned to Doctor Strange to help him restore Mjolnir. It was bonded to Thor's life force so that any injury to the hammer would affect Thor. It was then that Thor learned of Sif's fate, allowing him to restore her to her body.
+                    </p>
+
+                    <a href="#small-dialog" class="popup-with-zoom-anim d-flex align-items-center mt-md-5 mt-4">
+                        <span class="video-play-icon mr-3">
+                            <span class="far fa-play-circle"></span>
+                        </span>Watch this <br>Video
+                    </a>
+
+                    <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                    <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                        <iframe src="assets/videos/Video3.mp4" frameborder="0"
+                            allow="autoplay; fullscreen" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section style="background-color: black;" id="contact">
+        <div class="background reveal">
+            <div class="container-k">
+              <div class="screen">
+                <div class="screen-header">
+                  <div class="screen-header-left">
+                    <div class="screen-header-button close"></div>
+                    <div class="screen-header-button maximize"></div>
+                    <div class="screen-header-button minimize"></div>
+                  </div>
+                  <div class="screen-header-right">
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                  </div>
+                </div>
+                <div class="screen-body">
+                  <div class="screen-body-item left">
+                    <div class="app-title">
+                      <span>CONTACT</span>
+                      <span>US</span>
+                    </div>
+                    <div class="app-contact">CONTACT INFO : +62 81 314 928 595</div>
+                  </div>
+                  <div class="screen-body-item">
+                    <div class="app-form">
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="NAME" value="M Lokesh">
+                      </div>
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="EMAIL">
+                      </div>
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="CONTACT NO">
+                      </div>
+                      <div class="app-form-group message">
+                        <input class="app-form-control" placeholder="MESSAGE">
+                      </div>
+                      <div class="app-form-group buttons">
+                        <button class="app-form-button">CANCEL</button>
+                        <button class="app-form-button">SEND</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="credits">
+                inspired by &nbsp;
+                <a class="credits-link" href="" target="_blank">
+                  KRR Innovaions
+                </a>
+              </div>
+              <p style="color: white;margin-top:50px;text-align: center;">© 2022 KRR Innovations Pvt Ltd. All Rights Reserved.</p>
+            </div>
+          </div>          
+    </section>
+<div style="margin: 8px auto; display: block; text-align:center;">
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- //move top -->
+
+    <!-- common jquery plugin -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
+
+    <!-- owl carousel -->
+    <script src="assets/js/owl.carousel.js"></script>
+    <!-- script for tesimonials carousel slider -->
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo2").owlCarousel({
+                loop: true,
+                nav: false,
+                margin: 50,
+                responsiveClass: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplaySpeed: 1000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    736: {
+                        items: 1,
+                        nav: false
+                    },
+                    991: {
+                        items: 2,
+                        margin: 30,
+                        nav: false
+                    },
+                    1080: {
+                        items: 3,
+                        nav: false
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //script for tesimonials carousel slider -->
+    <!-- owl carousel -->
+
+    <!-- magnific popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
+        });
+    </script>
+    <!-- //magnific popup -->
+
+    <!-- theme switch js (light and dark)-->
+    <script src="assets/js/theme-change.js"></script>
+    <script>
+        function autoType(elementClass, typingSpeed) {
+            var thhis = $(elementClass);
+            thhis.css({
+                "position": "relative",
+                "display": "inline-block"
+            });
+            thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
+            thhis = thhis.find(".text-js");
+            var text = thhis.text().trim().split('');
+            var amntOfChars = text.length;
+            var newString = "";
+            thhis.text("|");
+            setTimeout(function () {
+                thhis.css("opacity", 1);
+                thhis.prev().removeAttr("style");
+                thhis.text("");
+                for (var i = 0; i < amntOfChars; i++) {
+                    (function (i, char) {
+                        setTimeout(function () {
+                            newString += char;
+                            thhis.text(newString);
+                        }, i * typingSpeed);
+                    })(i + 1, text[i]);
+                }
+            }, 1500);
+        }
+
+        $(document).ready(function () {
+            // Now to start autoTyping just call the autoType function with the 
+            // class of outer div
+            // The second paramter is the speed between each letter is typed.   
+            autoType(".type-js", 200);
+        });
+    </script>
+    <!-- //theme switch js (light and dark)-->
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!--bootstrap-->
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+<script type="text/javascript">
+    window.addEventListener('scroll',reveal);
+    function reveal()
+    {
+        var reveals = document.querySelectorAll('.reveal');
+        for(var i=0;i<reveals.length;i++)
+        {
+            var windowheight = window.innerHeight;
+            var revealtop = reveals[i].getBoundingClientRect().top;
+           var revealpoint = 150;
+           if(revealtop < windowheight-revealpoint)
+           {
+            reveals[i].classList.add('active');
+           }
+           else{
+            reveals[i].classList.remove('active');
+           }
+        }
+
+
+    }
+</script>
+<script>
+    let text = new SplitType('#text'); 
+    let text1 = new SplitType('#text1'); 
+    $("[words-slide-up]").each(function(index){
+        let t1 = gsap.timeline({paused:true});
+        t1.from($(this).find('.word'),{opacity:0,yPercent:100,duration:0.5,ease:"back.out(2)",stagger:{amount : 0.5}});
+         ScrollTrigger.create({
+            trigger : $(this),
+            start:"top bottom",
+            onLeaveBack:()=>{
+                t1.progress(0);
+                t1.pause();
+            }
+         });
+         ScrollTrigger.create({
+            trigger:$(this),
+            start:"top 90%",
+            onEnter:()=>t1.play()
+         });
+    });
+    $("[words-slide-down]").each(function(index){
+        let t1 = gsap.timeline({paused:true});
+        t1.from($(this).find('.word'),{yPercent:-120,duration:0.5,ease:"power1.out",stagger:{amount : 0.5}});
+         ScrollTrigger.create({
+            trigger : $(this),
+            start:"top bottom",
+            onLeaveBack:()=>{
+                t1.progress(0);
+                t1.pause();
+            }
+         });
+         ScrollTrigger.create({
+            trigger:$(this),
+            start:"top 90%",
+            onEnter:()=>t1.play()
+         });
+        });
+</script>
+
+</html>
